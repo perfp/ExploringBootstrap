@@ -13,7 +13,7 @@ export function NavMenu() {
     return (
         
         <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light container>
-            <img src={logo} className="brand-logo" />    
+            <img src={logo} className="brand-logo" alt="react logo" />    
             <NavbarBrand to="/">Bootstrap explorer</NavbarBrand>
             <NavbarToggler onClick={toggleNavbar} className="mr-2" />
             <Collapse className="d-sm-inline-flex" isOpen={!collapsed} navbar>
@@ -25,6 +25,9 @@ export function NavMenu() {
                 </ul>
                 <ul className="navbar-nav flex-grow">
                     <NavLink tag={Link} className="text-dark" to="/accordion">Accordion</NavLink>
+                </ul>
+                <ul className="navbar-nav flex-grow">
+                    <NavLink tag={Link} className="text-dark" to="/alerts">Alerts</NavLink>
                 </ul>
             </Collapse>
         </Navbar>

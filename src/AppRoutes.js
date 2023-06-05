@@ -1,4 +1,5 @@
 import { AccordionPage } from "./components/AccordionPage";
+import { AlertsPage } from "./components/AlertsPage";
 import {Home} from "./components/Home";
 import { Jumbotron } from "./components/Jumbotron";
 import { Root } from "./components/Root";
@@ -17,6 +18,10 @@ const AppRoutes = [
             },{
                 path: "/accordion",
                 element: <AccordionPage />
+            },
+            {
+                path: "/alerts",
+                element: <AlertsPage />
             }
         ]
     }
