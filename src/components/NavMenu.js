@@ -29,6 +29,9 @@ export function NavMenu() {
                 <ul className="navbar-nav flex-grow">
                     <NavLink tag={Link} className="text-dark" to="/alerts">Alerts</NavLink>
                 </ul>
+                <ul className="navbar-nav flex-grow">
+                    <NavLink tag={Link} className="text-dark" to="/badges">Badges</NavLink>
+                </ul>
             </Collapse>
         </Navbar>
     )

@@ -1,5 +1,6 @@
 import { AccordionPage } from "./components/AccordionPage";
 import { AlertsPage } from "./components/AlertsPage";
+import { BadgePage } from "./components/BadgePage";
 import {Home} from "./components/Home";
 import { Jumbotron } from "./components/Jumbotron";
 import { Root } from "./components/Root";
@@ -22,6 +23,10 @@ const AppRoutes = [
             {
                 path: "/alerts",
                 element: <AlertsPage />
+            },
+            {
+                path: "/badges",
+                element: <BadgePage />
             }
         ]
     }
