@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import { Collapse, NavLink, Navbar, NavbarBrand, NavbarToggler } from "reactstrap";
+import { Collapse, Nav, NavLink, Navbar, NavbarBrand, NavbarToggler } from "reactstrap";
 import logo from '../logo.svg';
 
 
@@ -31,6 +31,18 @@ export function NavMenu() {
                 </ul>
                 <ul className="navbar-nav flex-grow">
                     <NavLink tag={Link} className="text-dark" to="/badges">Badges</NavLink>
+                </ul>
+                <ul className="navbar-nav flex-grow">
+                    <NavLink tag={Link} className="text-dark" to="/breadcrumbs">Breadcrumbs</NavLink>
+                </ul>   
+                <ul className="navbar-nav flex-grow">
+                    <NavLink tag={Link} className="text-dark" to="/buttons">Buttons</NavLink>
+                </ul>
+                <ul className="navbar-nav flex-grow">
+                    <NavLink tag={Link} className="text-dark" to="/buttongroups">Button groups</NavLink>
+                </ul>
+                <ul className="navbar-nav flex-grow">
+                    <NavLink tag={Link} className="text-dark" to="/cards">Cards</NavLink>
                 </ul>
             </Collapse>
         </Navbar>

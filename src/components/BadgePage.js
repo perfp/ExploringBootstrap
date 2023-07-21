@@ -14,11 +14,7 @@ export function BadgePage () {
             <div>
                 <Button color="primary">Button with badge <Badge color="secondary">4</Badge></Button>
             </div>
-            <div className="row-1 p-3">
-                <button type="button" className="btn btn-primary">
-                    button
-                </button>            
-            </div>
+            
 
             
         </div>
